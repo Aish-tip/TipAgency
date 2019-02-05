@@ -1,0 +1,10 @@
+.nav{
+    color:black;
+}
+.navbar-nav{
+    flex-direction: row;
+    padding:25px;
+}
+.nav-item{
+    margin-right:25px;
+}
