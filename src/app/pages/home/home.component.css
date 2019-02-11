@@ -1,0 +1,80 @@
+#title h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: GothamLight;
+    font-size: 2.8em;
+}
+.index-row{
+    margin-bottom: 8px;
+}
+.home-hover img{
+    float:left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(100%);
+}
+.home-hover img:hover{
+    float:left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(0%);
+}
+.col-lg-8,.col-md-8,.col-sm-12,.col-xs-12{
+    padding:0px !important;
+}
+.col-md-4 h3{
+    font-family: 'bodoni-webfont';
+}
+.akshara_info h3{    
+    letter-spacing: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.akshara_info h4{
+    letter-spacing: 4px;
+    margin-top: 0px;
+    line-height: 1.5em;
+    font-size:18px;
+}
+.akshara_info p{
+    font-size:16px;
+    width:280px;
+    line-height: 20px;
+    text-align: start;
+    hyphens: none;
+    -webkit-hyphens: none;
+}
+.empty-space{
+    padding:15px !important;
+}
+div a button p{
+    margin:0px;
+    padding:0px 10px;
+}
+.view-btn{
+    font-family: Lato;
+    font-size: 1rem;
+    display: block !important;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: normal;
+    padding: .5rem 1rem;
+    height: auto;
+    border: 1px solid;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    margin: 0px auto !important;
+    text-align: center;
+    white-space: nowrap;
+    touch-action: manipulation;
+    user-select: none;
+    background-image: none;
+    border-radius: 20px !important;
+    box-shadow: 0px 5px 0px rgba(4, 4, 4, 0.3);
+}
+.view-btn-default{
+        color: #000000 !important;
+        background-color: #fff !important;
+        border-color: #ccc !important;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }

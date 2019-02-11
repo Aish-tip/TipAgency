@@ -5,8 +5,13 @@
     font-size: 12px;
     color: #fff;
     padding: 20px 4px 0px 4px;
+    font-family:GothamBook;
 }
 img{
     margin:3px;
     vertical-align: middle;
+}
+.footer-nav a:hover{
+    color: #23527c;
+    text-decoration: underline;
 }
