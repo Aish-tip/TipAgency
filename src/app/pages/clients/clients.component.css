@@ -1,0 +1,62 @@
+#title_name h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: gotham-light;
+    font-size: 2.8em;
+}
+.home_hover img{
+    float:left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(100%);
+    width:98%;
+    background-color:#f6f6f6;
+    cursor:auto;
+}
+.home_hover img:hover{
+    float:left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(0%);
+}
+.lancome img:hover{
+    background-color:#e1eff8;
+}
+img{
+    margin:3px;
+}
+.index-row{
+    margin-bottom:2px !important;
+}
+div.home_hover{
+    margin:0px;
+    padding:0px;
+}
+.seven_beans img:hover{
+    background-color: #151327;
+}
+.main .second{
+    display:none;
+}
+.main:hover > .first{
+    display: none;
+}
+.main:hover > .second{
+    display: block;
+}
+.halliberi img:hover{
+    background-color: #e0d2b7;
+}
+.savyasachi img:hover{
+    background-color: #142147;
+}
+.huda img:hover{
+    background-color: #000000;
+}
+.lakeview img:hover{
+    background-color: #78c09c;
+}
+.satori img:hover{
+    background-color: #838383;
+}
+.django img:hover{
+    background-color: #000000;
+}

@@ -1,0 +1,34 @@
+#title_name h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: gotham-light;
+    font-size: 2.8em;
+}
+select#division_select{
+    margin-top: 5%;
+}
+select{
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.home-hover img{
+    float:left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(100%);
+}
+.home-hover img:hover{
+    float:left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(0%);
+}
+#second-row img{
+    float:left;
+}
+.row{
+    margin-bottom:8px;
+}
+.empty-space{
+    padding:15px !important;
+}
