@@ -35,15 +35,12 @@
     left: -41px;
     z-index: 1000;
 }
-.fore_img img{
+.rest_img img{
     position: absolute;
     width: 120%;
     top: -45px;
     left: -41px;
     z-index: 1000;
-}
-.fore_img a img:hover{
-    display:block !important;
 }
 .col-lg-4, .col-md-4{
     max-width:31.333333% !important;

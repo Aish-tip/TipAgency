@@ -1,0 +1,18 @@
+#contact-title h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: 'gotham-light';
+    font-size: 2.8em;
+}
+#location, #share, #email{
+    text-align:center;
+    display: block;
+}
+.contact-page h3{
+    font-family: 'bodoni-webfont';
+    font-size:22px;
+}
+.contact-page p{
+    font-family: 'GothamBook';
+    font-size:14px;
+}

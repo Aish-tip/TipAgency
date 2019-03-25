@@ -15,3 +15,114 @@ img{
     color: #23527c;
     text-decoration: underline;
 }
+label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    /* padding-right: 30px; */
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    /* padding: 6px 12px; */
+    /* font-size: 14px; */
+    padding: 21px 10px;
+    font-size: 10px;
+    line-height: 1.428571;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+textarea.form-control{
+    height:185px;
+}
+.btn {
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 1px solid;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn-default {
+    color: #cacaca !important;
+    background-color: #22252c !important;
+    border-color: #ccc !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+}
+.btn {
+    display: block !important;
+    padding: 6px 12px;
+    margin: 0px auto !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 20px !important;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 0px 5px 0px rgba(4, 4, 4, 0.3);
+}
+.btn-default p{
+    font-family: "GothamBook";
+}
+#scroll {
+    position: fixed;
+    right: -2px;
+    bottom: 20px;
+    cursor: pointer;
+    width: 55px;
+    height: 24px;
+    background-color: #aeaeaf;
+    text-indent: -9999px;
+    display: none;
+    z-index: 99;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 27px 0px 0px 27px;
+}
+#scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+#scroll:hover{
+    background-color: #000;
+    opacity:1;
+}

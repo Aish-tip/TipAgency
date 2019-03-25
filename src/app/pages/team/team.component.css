@@ -1,0 +1,24 @@
+#team-title h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: 'gotham-light';
+    font-size: 2.8em;
+}
+#team-info img{
+    width:99%;
+    margin-bottom: 32px;
+}
+.team-hover img{
+    float: left;
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(100%);
+}
+.team-hover img:hover{
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(0%);
+}
+#team-info p{
+    font-size: 14px;
+    font-family: 'GothamBook';
+    padding:0 0 10px 0;
+}

@@ -1,0 +1,157 @@
+#image-dev, #image-content, #image-hr, #image-gd, #image-sm, #image-seo, #image-acc, #image-bus, #image-digital{
+    background-color: #f6f6f6;
+}
+#developer_id>img, #content-writer_id>img, #human-resource_id>img, #graphic-design_id>img, #social-media_id>img, #seo_id>img, #account_id>img, #business_id>img, #digital_id>img{
+    width:95%;
+}
+.developer, .content-writer, .human-resource, .graphic-design, .social-media, .seo, .account, .business, .digital{
+    -webkit-transition: 0.2s ease;
+    width: 31.5%;
+    margin: 0px;
+    margin-top: 9px;
+}
+#career-title h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: 'GothamLight';
+    font-size: 2.8em;
+}
+img{
+    margin:3px;
+}
+#image-dev:hover{
+    background-image: url(../../../assets/images/careers/dev_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+}
+#image-content:hover{
+    background-image: url(../../../assets/images/careers/content_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+}
+#image-hr:hover{
+    background-image: url(../../../assets/images/careers/HR_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+}
+#image-gd:hover{
+    background-image: url(../../../assets/images/careers/GD_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+}
+#image-seo:hover{
+    background-image: url(../../../assets/images/careers/seo_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+}
+#image-digital:hover{
+    background-image: url(../../../assets/images/careers/DM_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+}
+#image-sm, #image-acc, #image-bus{
+    -webkit-transition: .7s ease-in-out;
+    filter: grayscale(100%);
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9{
+    display: none;
+
+}
+.row{
+    margin-bottom: 7px;
+}
+.in-image img{
+    /* margin-top: 20px; */
+    display: block;
+    margin:20px auto auto auto;
+}
+.close-button button{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: #000000;
+    background-color: #ffffff00;
+    border-radius: 15px;
+    border: 0px solid #000;
+}
+.empty-space{
+    padding:15px;
+}
+.col-md-offset-4{
+    margin-left:33.33333%;
+}
+.developer h2, .content-writer h2, .human-resource h2, .graphic-design h2, .seo h2, .digital h2{
+    font-size:18px;
+    padding-left:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1>.row, .div2>.row, .div3>.row, .div4>.row,.div6>.row, .div9>.row{
+    margin-left:95px;
+    margin-bottom: 7px;
+}
+.in-career ul>li{
+    font-size:12px;
+    font-family: "GothamBook";
+}
+.in-career-first{
+    padding-left:20px;
+}
+.in-career{
+    min-height: 200px;
+}
+.div1> .in-career{
+    padding-left:20px;
+}
+.div2> .in-career, .div3> .in-career, .div4> .in-career, .div6> .in-career, .div9> .in-career{
+    padding-left:80px;
+}
+label{
+    font-size:14px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: normal;
+    padding: .5rem 1rem;
+    height: auto;
+    border: 1px solid;
+    vertical-align: middle;
+    display: block !important;
+    margin: 0px auto !important;
+    text-align: center;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 20px !important;
+    box-shadow: 0px 5px 0px rgba(4, 4, 4, 0.3);
+}
+.btn-default{
+    /* color: #cacaca !important; */
+    /* background-color: #22252c !important; */
+    border-color: #ccc !important;
+    /* padding-left: 3% !important; */
+    /* padding-right: 3% !important; */
+}

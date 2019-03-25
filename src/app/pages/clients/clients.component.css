@@ -60,3 +60,6 @@ div.home_hover{
 .django img:hover{
     background-color: #000000;
 }
+.empty-space{
+    padding:15px !important;
+}

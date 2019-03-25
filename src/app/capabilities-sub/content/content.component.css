@@ -1,0 +1,71 @@
+#content-title h2{
+    margin-top: 0px;
+    letter-spacing: 12px;
+    font-family: 'GothamLight';
+    font-size: 39.2px;
+    line-height: 1.1;
+}
+.in-content h4{
+    font-family: 'GothamBook';
+    letter-spacing: 4px;
+    margin-top: 0px;
+    line-height: 27px;
+    font-size:18px;
+}
+.in-content p{
+    width:260px;
+    font-size: 14px;
+    font-family: 'GothamBook';
+}
+.in-content h3{
+    border-bottom: 2px solid #0072bc;
+    padding-bottom: 0px;
+    width: 110px;
+    margin-top: 0px;
+}
+.empty-space{
+    padding:15px;
+}
+.in-content h2{
+    font-family: 'bodoni-webfont';
+    margin-bottom:10px;
+    margin-top:20px;
+}
+.example1>img, .example2>img, .example3>img{
+    width:80%;
+    margin-top:10px;
+}
+.close-button button{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 2% !important;
+    right: 2%;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+.example2>img, .example2>h3{
+    margin-left:30px;
+}
+.example3>img, .example3>h3{
+    margin-left:60px;
+}
+.example1>h3, .example2>h3, .example3>h3{
+    font-family:'bodoni-webfont';
+    font-size:24px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#ex-img10, #ex-img11, #ex-img12{
+    background-color: #ffffff;
+}
+.example1, .example2, .example3{
+    width:31.5%;
+    height:auto;
+    -webkit-transition: 0.2s ease;
+    /* width: 31.5%; */
+    margin: 0px;
+    margin-top: 9px;
+}

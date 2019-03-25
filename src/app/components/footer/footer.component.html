@@ -6,16 +6,40 @@
             <div class="empty-space">
             </div>
         </div>
-        <!-- <form style="width:60%;margin-left:auto;margin-right:auto">
+        <div class="container" style="margin-left:auto;margin-right:auto">
+          <form [formGroup]="contactForm" (ngSubmit)="submitForm(contactForm.value)" novalidate >
             <div class="form-group">
+              <div class="row" style="display: -webkit-box">
+              <div class="col-md-4" style="width:100%">
+                <label for="name"></label>
+                <input type="text" class="form-control" formControlName="name" id="name" required placeholder=" Your Name *">
+              </div>
               <div class="col-md-4">
-                 <label for="name"></label> 
-                   <input type="text" class="form-control" name="name" id="name" ngmodel required placeholder="your name *"> -->
-               <!-- </div>
-              <div class="col-md-4"></div>
-              <div class="col-md-4"></div>
+                <label for="email"></label>
+                <input type="email" formControlName="email" id="email" class="form-control" required placeholder="Your email *">
+              </div>
+              <div class="col-md-4">
+                <label for="subject"></label>
+                <input type="text" formControlName="subject" id="subject" class="form-control" required placeholder="Subject *">
+              </div>
             </div>
-        </form>        -->
+              <div class="col-md-12" style="margin-top: 3%;padding-left: 0px;padding-right: 0px">
+                <label for="message" style="width:100%">
+                  <textarea type="text" formControlName="message" id="message" class="form-control" required placeholder="Message *" style="width:100%"></textarea>
+                </label>
+              </div>
+              <div class="col-md-12" style="margin-top: 3%" class="submit-btn">
+                <label>
+                  <button type="submit" name="submit" value="Submit" style=" position:relative;left:1%;color:#cacaca;background-color:#22252c" class="btn btn-default">
+                  <p style="margin-bottom:0px;padding:0px 10px;font-size:10px">SUBMIT NOW</p>
+                  </button>
+                </label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     </div>
 </div>
 <footer class="footer" style="padding-bottom:1%">
@@ -24,12 +48,12 @@
           
           <div class="col-md-4 footer-nav" style="padding-top:1%;padding-right: 5%">
     
-                  <a href="https://www.tip.agency/">Home</a>
-                  <a href="our_capabilities">Capabilities</a>
-                  <a href="portfolio">Portfolio</a>
-                  <a href="career">Careers</a>
-                  <a href="team">Team</a>
-                  <a href="contact_us">Contact</a>                 
+                  <a routerLink="" target="_top">Home</a>
+                  <a routerLink="capabilities" target="_top">Capabilities</a>
+                  <a routerLink="portfolio" target="_top">Portfolio</a>
+                  <a routerLink="career" target="_top">Careers</a>
+                  <a routerLink="team" target="_top">Team</a>
+                  <a routerLink="contact" target="_top">Contact</a>                 
             
           </div>
           <div class="col-md-4 footer-tag" style="padding-top:1%">

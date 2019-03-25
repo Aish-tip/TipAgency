@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12" id="content-title">
+          <h2 style="margin-bottom:20px;">CONTENT</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12 in-content">
+          <h4>SHORT COPY, LONG COPY<br> AND SOCIAL MEDIA COPY</h4>
+          <h3 style="margin-bottom:20px;"></h3>
+          <h2>It's not what you say but <br>
+          how you say it</h2>
+          <p>Impressive imagery and interface just serve as a backdrop to project what you want to say. Every project and medium dictates its own length, but ultimately, it’s the copy that’s will immerses a viewer. We’ll find you the writer with the right skillset to make your messaging most effective.</p>
+        </div>
+        <div class="col-md-8 col-sm-12 col-xs-12">
+          <img src="../../../assets/images/capabilities-sub/content/contentimage.jpg" alt="content" width="85%" align="right">
+        </div>
+      </div>
+      <div class="empty-space"></div>
+      <div class="empty-space"></div>
+      <div class="row">
+          <div class="col-sm-12 in-content">
+            <h4>EXAMPLES OF WORK</h4>
+            <h3></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12 example1" id="kandavara">
+            <img (click)="open10()"  id="ex-img10" src="../../../assets/images/capabilities-sub/content/kandavara.jpg" alt="kandavara">
+            <div class="row div1" style="display: none" id="div10">
+              <div class="container-fluid">
+                <div class="container">
+                  <app-kandavara></app-kandavara>
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, minima a pariatur animi eligendi accusamus magnam nostrum voluptates deserunt ipsa odit dolore. Voluptatem velit accusamus error itaque, minima totam voluptate.</p> -->
+                  <div class="close-button">
+                    <button (click)="close('div10')">X</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 id="img-name10">KANDAVARA</h3>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 example2" id="sarayu">
+            <img (click)="open11()" id="ex-img11" src="../../../assets/images/portfolio/sarayu.jpg" alt="sarayu">
+            <div class="row div2" style="display:none" id="div11">
+              <div class="container-fluid">
+                <div class="container">
+                  <app-sarayu></app-sarayu>
+                  <div class="close-button">
+                    <button (click)="close('div11')">X</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 id="img-name11">SARAYU</h3>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 example3" id="cf-holidays">
+            <img (click)="open12()" id="ex-img12" src="../../../assets/images/portfolio/crafted_holidays.jpg" alt="crafted_holidays">
+            <div class="row div3" style="display:none" id="div12">
+              <div class="container-fluid">
+                <div class="container">
+                  <app-crafted-holidays></app-crafted-holidays>
+                  <div class="close-button">
+                    <button (click)="close('div12')">X</button>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <h3 id="img-name12">CRAFTED HOLIDAYS</h3>
+          </div>  
+        </div>
+        <div class="empty-space"></div>
+      <div class="empty-space"></div>
+
+</div>
